@@ -3,41 +3,28 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/login.css"> -->
   <link rel="stylesheet" type="text/css" href="http://localhost:8888/Cadastro_Custom/css/login.css">
-  <!-- <script type='text/javascript' src="<?php echo base_url(); ?>js/sample.js"></script> -->
-
-  <title>Login</title>
+  <link rel="stylesheet" href="http://localhost:8888/Cadastro_Custom/css/bootstrap/css/bootstrap.css">
 </head>
 
-<form action="action_page.php" method="post">
-  <div class="imgcontainer">
-    <img src="http://localhost:8888/Cadastro_Custom/img/img_avatar2.png" alt="Avatar" class="avatar">
-  </div>
+<body id="body">
 
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+  <header>
+    <h1 class="main-title">Login</h1>
+  </header>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+  <form id="form">
+    <div class="form-group">
+      <label for="login">Login</label>
+      <input type="email" class="form-control" id="login" aria-describedby="emailHelp" placeholder="Entre com login">
+    </div>
+    <div class="form-group">
+      <label for="passwordLogin">Senha</label>
+      <input type="password" class="form-control" id="passwordLogin" placeholder="Senha">
+    </div>
 
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
-
-<body>
+    <button type="submit" class="btn btn-primary" onclick="print('suhasuahsauh')">Logar</button>
+  </form>
 
 </body>
 

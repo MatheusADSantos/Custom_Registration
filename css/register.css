@@ -1,0 +1,19 @@
+#body {
+  background-color: #1C1C1C
+}
+
+.main-title {
+  text-align: center;
+  color: red
+}
+
+.sub-title {
+  padding: 20px 0 0 0;
+}
+
+.containers {
+  background-color: #F8F8FF;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px
+}

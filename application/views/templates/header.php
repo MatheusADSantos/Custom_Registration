@@ -1,8 +1,10 @@
 <html>
 
 <head>
-  <title>Codegniter Tutorial</title>
+  <title>Cadastro Custom - FMobile</title>
 </head>
 
 <body>
-  <h1><?php echo $title; ?></h1>
+  <div style="background-color:#d6d6d6">
+    <h1><?php echo $title; ?></h1>  
+  </div>
