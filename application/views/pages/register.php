@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="http://localhost:8888/Cadastro_Custom/css/register.css">
-  <link rel="stylesheet" href="http://localhost:8888/Cadastro_Custom/css/bootstrap/css/bootstrap.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/register.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('css/bootstrap/css/bootstrap.css') ?>">
 </head>
 
 <body id="body">
@@ -14,7 +16,7 @@
   </header>
 
   <form>
-    <div class="containers">
+    <div class="containers container">
       <div class="container-info">
         <h2 class="sub-title">Informações da Empresa e Responsável</h2><br>
 
@@ -33,7 +35,7 @@
         <div class="form-group">
           <label for="site">Site</label>
           <input type="text" class="form-control" id="site" placeholder="https://www.exemplo.com.br">
-          <small id="site" class="form-text text-muted">Site estará visivel na loja | Verificar se o site está funcionando ..."</small>
+          <small id="site" class="form-text text-muted">Site estará visivel na loja | Verificar se o site está funcionando ...</small>
         </div>
         <div class="form-group">
           <label for="email">Email</label>
@@ -43,7 +45,7 @@
         <div class="form-group">
           <label for="telphone">Telefone</label>
           <input type="text" class="form-control" id="telphone" placeholder="+DDI DDD telefone">
-          <small id="telphone" class="form-text text-muted">Telefone estará visível na loja  |  Ex: +55 14 telefone</small>
+          <small id="telphone" class="form-text text-muted">Telefone estará visível na loja | Ex: +55 14 telefone</small>
         </div>
         <div class="form-group">
           <label for="copyright">Copyright</label>
@@ -55,7 +57,7 @@
 
 
 
-    <div class="containers">
+    <div class="containers container">
       <div class="container-info-app">
         <h2 class="sub-title">Dados do App</h2>
 
@@ -72,7 +74,7 @@
       </div>
     </div>
 
-    <div class="containers">
+    <div class="containers container">
       <div class="container-info-store">
         <h2 class="sub-title">Acesso às Lojas</h2>
         <small id="" class="form-text text-muted">Obs: Caso for compartilhado, favor desconsiderar esses campos</small><br>
@@ -102,7 +104,7 @@
     </div>
 
 
-    <div class="containers">
+    <div class="containers container">
       <div class="container-images">
         <h2 class="sub-title">Imagens</h2>
         <ul>

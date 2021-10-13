@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="http://localhost:8888/Cadastro_Custom/css/login.css">
-  <link rel="stylesheet" href="http://localhost:8888/Cadastro_Custom/css/bootstrap/css/bootstrap.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/login.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('css/bootstrap/css/bootstrap.css') ?>">
 </head>
 
 <body id="body">
